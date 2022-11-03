@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_drawable"
-    tools:context=".LoginActivity">
+    tools:context=".HomechatActivity">
+
+
 
     <LinearLayout
         android:id="@+id/ngobrolKuyTitle"
@@ -59,6 +61,11 @@
             />
     </LinearLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
     <LinearLayout
         android:id="@+id/List"
         android:layout_width="match_parent"
@@ -72,6 +79,7 @@
         android:layout_marginEnd="24dp">
 
         <LinearLayout
+            android:id="@+id/firstchat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -166,8 +174,291 @@
                 android:textColor="@color/white"
                 android:layout_gravity="center_vertical"/>
         </LinearLayout>
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
 
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/circle"
+                app:cardCornerRadius="40dp"
+                android:backgroundTint="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5pt">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ligma"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bales"
+                    android:textSize="6pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:30"
+                android:layout_marginLeft="160dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/circle"
+                app:cardCornerRadius="40dp"
+                android:backgroundTint="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5pt">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ligma"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bales"
+                    android:textSize="6pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:30"
+                android:layout_marginLeft="160dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/circle"
+                app:cardCornerRadius="40dp"
+                android:backgroundTint="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5pt">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ligma"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bales"
+                    android:textSize="6pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:30"
+                android:layout_marginLeft="160dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/circle"
+                app:cardCornerRadius="40dp"
+                android:backgroundTint="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5pt">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ligma"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bales"
+                    android:textSize="6pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:30"
+                android:layout_marginLeft="160dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/circle"
+                app:cardCornerRadius="40dp"
+                android:backgroundTint="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5pt">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ligma"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bales"
+                    android:textSize="6pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:30"
+                android:layout_marginLeft="160dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/circle"
+                app:cardCornerRadius="40dp"
+                android:backgroundTint="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5pt">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ligma"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bales"
+                    android:textSize="6pt"
+                    android:fontFamily="@font/redhatdisplay_regular"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="8pt"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:30"
+                android:layout_marginLeft="160dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,26 +12,35 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class HomechatActivity extends AppCompatActivity {
     private ImageView settingicon;
+    private LinearLayout bubblechat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homechat);
-
+        bubblechat = findViewById(R.id.firstchat);
         settingicon = findViewById(R.id.setting);
 
 
         String uname = getIntent().getExtras().getString("username");
         String pass = getIntent().getExtras().getString("password");
-        String fp = getIntent().getExtras().getString("profilepic");
+
 
         settingicon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomechatActivity.this, SettingActivity.class);
                 intent.putExtra("username", uname);
-                intent.putExtra("profilepic", fp);
                 intent.putExtra("password", pass);
+
+                startActivity(intent);
+            }
+        });
+
+        bubblechat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomechatActivity.this, ChatPersonalActivity.class);
                 startActivity(intent);
             }
         });
